@@ -1,0 +1,261 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.inner{
+    height:85%;
+    width:70%;
+    position:absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 68px -6px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content:space-between;
+    border-radius: 10px;
+    
+}
+
+.photo{
+    width: 50%;
+    height: 50%;
+    padding: 70px;
+}
+
+.photo img{
+    width: 110%;
+    height: 300%;
+    padding-top: 30px;
+    
+}
+
+.user-form{
+    background: #4036ff;
+    padding: 10px;
+    width: 45%;
+    height:100%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.user-form h2{
+    color: #fff;
+    padding: 30px 0;
+    margin: 25px 10px;
+
+}
+
+.user-form i{
+    position: absolute;
+    margin: 28px 0;
+    color: #473efc;
+    padding-left: 10px;
+    size: 5px;
+}
+
+input{
+    width:100%;
+    height:3em;
+    border:none;
+    border-radius: 30px;
+    font-size: 15px;
+    margin: 10px 0;
+    padding: 0 30px;
+}
+
+.safety{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.line{
+    height:6px;
+    border-radius: 20px;
+    width:20%;
+    background: #fff;
+    margin: 5px;
+}
+
+span:nth-child(2){
+     background-color: #fffc00;
+}
+span:nth-child(3){
+    background-color: #fffc00;
+}
+
+.action-btn{
+    width:100%;
+    display:flex;
+    margin:30px 0;
+    padding-top: 5px;
+}
+
+.btn{
+    border:1px solid #fff;
+    padding:1px;
+    background: transparent;
+    border-radius: 20px;
+    width: 50%;
+    margin:0 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.primary{
+    width: none;
+    background: linear-gradient(45deg, rgba(222, 197, 51,1) 24%, rgba(255, 107,0,1) 100%);
+}
+
+@media(max-width: 665px){
+    .photo{
+        display: none;
+    }
+    .user-form{
+        width:100%;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 990px) and (min-width: 665px) {
+    .action-btn{
+        margin: 5px;
+        display: block;
+        width:100%;
+    }
+    .btn{
+        width: 100%;
+        margin: 5px;
+        padding: 5px;
+    }
+}
+
+.navbar navbar-inverse .container-fluid  ul:nav navbar-nav{
+    align-items: flex-end;
+}
+
+.nav ul{
+    list-style: none;
+    background:#663366;
+    text-align: center;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    display: block;
+    padding: 25px;
+    font-size:18px;
+    font-family: Helvetica;
+    
+}
+.nav a:hover{
+    background:#000;
+    transition:  0.1s;
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto',sans-serif;
+}
+.container  { 
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(2, 2, 2, 0.548),rgba(2, 2, 2, 0.568)),url(../images/pexels-photo-2986403.jpeg);
+    background-position: center;
+    background-size:cover ;
+    padding-right: 8%;
+    padding-left: 8%;
+    box-sizing: border-box;
+}
+
+.row{
+    display:flex;
+    height:88%;
+    align-items: center;
+    padding-top: 50px;
+    padding-right: 40px;
+    
+}
+
+h1{
+    color:#fff;
+    font-size: 100px;
+}
+
+P{
+    color:#fff;
+    font-size: 16px;
+    line-height: 20px; 
+}
+button{
+    width:180px;
+    color:#000;
+    font-size:12px;
+    padding:12px 0;
+    background:#fff;
+    border:0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.card {
+    width:200px;
+    height:200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    cursor:pointer;
+    margin: 10px 45px;
+    background-position:center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card img{
+    width:200px;
+    height:200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    cursor:pointer;
+    margin: 10px 25px;
+    background-position:center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+
+.card:hover{ 
+    transform: translateY(-10px);
+
+}
+
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 9px;
+    padding-left: 20px;
+}
+
+.col{
+    padding-top: 80px;
+}
+
+
+
+
+
+
+
+
+ 
